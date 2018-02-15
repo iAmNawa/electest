@@ -14,11 +14,7 @@
     win = new BrowserWindow({width: 1200, height: 900})
 
     // and load the index.html of the app.
-    win.loadURL(url.format({
-      pathname: path.join(__dirname, 'index.html'),
-      protocol: 'file:',
-      slashes: true
-    }))
+    win.loadURL('https://www.paulborawski.com')
 
     // Open the DevTools.
     win.webContents.openDevTools()
