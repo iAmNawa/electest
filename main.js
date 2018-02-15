@@ -1,6 +1,9 @@
-const {app, BrowserWindow} = require('electron')
+  const {app, BrowserWindow} = require('electron')
   const path = require('path')
   const url = require('url')
+  const Nightmare = require('nightmare')
+  const chai = require('chai')
+  const expect = chai.expect
 
   // Keep a global reference of the window object, if you don't, the window will
   // be closed automatically when the JavaScript object is garbage collected.
@@ -8,7 +11,7 @@ const {app, BrowserWindow} = require('electron')
 
   function createWindow () {
     // Create the browser window.
-    win = new BrowserWindow({width: 800, height: 600})
+    win = new BrowserWindow({width: 1200, height: 900})
 
     // and load the index.html of the app.
     win.loadURL(url.format({
