@@ -2,6 +2,7 @@
   const path = require('path')
   const url = require('url')
   const Nightmare = require('nightmare')
+  const nightmare = Nightmare()
   const chai = require('chai')
   const expect = chai.expect
 
@@ -13,7 +14,7 @@
     // Create the browser window.
     win = new BrowserWindow({width: 1200, height: 900})
 
-    // and load the index.html of the app.
+    // load any website here
     win.loadURL('https://www.paulborawski.com')
 
     // Open the DevTools.
