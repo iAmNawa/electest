@@ -2,17 +2,17 @@
 
 creating a basic electron app from the electron docs.
 
-your-app/
-  ├── package.json
-  ├── main.js
-  └── index.html
+your-app/  
+  ├── package.json  
+  ├── main.js  
+  └── index.html  
 
 
-MacOS / Linux
+MacOS / Linux  
 type npm i in the console and then ./node_modules/.bin/electron .
 
-Windows
+Windows  
 $ .\node_modules\.bin\electron .
 
-Node v8.2.0 and later
+Node v8.2.0 and later  
 npx electron .
