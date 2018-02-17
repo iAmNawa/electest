@@ -15,7 +15,7 @@
     win = new BrowserWindow({width: 1200, height: 900})
 
     // load any website here
-    win.loadURL('https://www.paulborawski.com')
+    win.loadURL('http://www.nothingsatisfies.com')
 
     // Open the DevTools.
     win.webContents.openDevTools()
